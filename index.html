@@ -6,191 +6,230 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/app.css">
     <title>Youcomminuk</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar justify-content-center bg-dark">
-            <div class="row align-items-center">
-                <div class="col-6 logo">
-                    <a href="">
-                        <img src="./public/img/logo-horizontal-fond-noir-couleur.png" alt="">
-                    </a>
-                </div>
-                <div class="col-6 d-flex text-center">
-                    <div class="col-2">
-                        <a class="text-uppercase text-decoration-none text-light" href="">
-                            <img src="./public/img/home-icon.png" alt="">home
-                        </a>
-                    </div>
-                    <div class="col-2">
-                        <a class="text-uppercase text-decoration-none text-light" href="">
-                            <img src="./public/img/packages-icon.png" alt="">packages
-                        </a>
-                    </div>
-                    <div class="col-2">
-                        <a class="text-uppercase text-decoration-none text-light" href="">
-                            <img src="./public/img/outils-icon.png" alt="">outils
-                        </a>
-                    </div>
-                    <div class="col-2">
-                        <a class="text-uppercase text-decoration-none text-light" href="">
-                            <img src="./public/img/projets-icon.png" alt="">projects
-                        </a>
-                    </div>
-                    <div class="col-2">
-                        <a class="text-uppercase text-decoration-none text-light" href="">
-                            <img src="./public/img/temoignages-icon.png" alt="">temoignage
-                        </a>
-                    </div>
-                    <div class="col-2">
-                        <a class="text-uppercase text-decoration-none text-light" href="">
-                            <img src="./public/img/contact-icon.png" alt="">contact
-                        </a>
-                    </div>
-                </div>
+        <nav class="bg-dark">
+            <div id="logo-nav">
+                <img src="./public/img/logo-horizontal-fond-noir-couleur.png" alt="Logo Youcommunik">
+            </div>
+            <div id="menu-nav">
+                <ul class="p-0">
+                    <li class="text-center">
+                        <img src="./public/img/home-icon.png" alt="">
+                        <a class="text-uppercase text-decoration-none text-light" href="">home</a>
+                    </li>
+                    <li class="text-center">
+                        <img src="./public/img/packages-icon.png" alt="">
+                        <a class="text-uppercase text-decoration-none text-light" href="">packages<PACKAGES</a>
+                    </li>
+                    <li class="text-center">
+                        <img src="./public/img/outils-icon.png" alt="">
+                        <a class="text-uppercase text-decoration-none text-light" href="">outils</a>
+                    </li>
+                    <li class="text-center">
+                        <img src="./public/img/projets-icon.png" alt="">
+                        <a class="text-uppercase text-decoration-none text-light" href="">projet</a>
+                    </li>
+                    <li class="text-center">
+                        <img src="./public/img/temoignages-icon.png" alt="">
+                        <a class="text-uppercase text-decoration-none text-light" href="">témoignage</a>
+                    </li>
+                    <li class="text-center">
+                        <img src="./public/img/contact-icon.png" alt="">
+                        <a class="text-uppercase text-decoration-none text-light" href="">contact</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <div class="container">
-            <div class="row banner">
+        <div class="banner text-light py-4">
+            <div class="row px-5">
                 <div class="col-4">
-                    <img src="./public/img/packages.png" alt="packages">
+                    <img class="d-none d-md-inline" src="./public/img/packages.png" alt="packages">
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-md-8 text-center text-md-start">
                     <h1>A chaque étape son pack</h1>
-                    <h3>naître, grandir et prospérer</h3>
+                    <h5>naître, grandir et prospérer</h5>
                 </div>
             </div>
         </div>
 
-        <div class="container eclosion">
-            <h2 class="text-uppercase">éclosion</h2>
-            <div class="row">
-                <div class="col-4">
-                    <img src="./public/img/icon-eclosion.png" alt="">
+        <div class="eclosion d-flex row justify-content-center m-0 py-5">
+            <h2 class="text-uppercase text-center text-light py-2">éclosion</h2>
+            <div class="row py-3 px-md-5 px-2 align-items-center">
+                <div class="col-md-4">
+                    <img class="w-100" src="./public/img/icon-eclosion.png" alt="">
                 </div>
-                <div class="col-8">
+                <div class="col-md-8 pt-3 ps-md-5 pt-md-0">
                     <p>Le pack éclosion est parfait pour le début d'une activité.</p>
                     <p>Il comprend la création de votre identité graphique, incluant votre logo et un support de
                         prospection pour aller à la rencontre de vos futurs clients, ainsi qu'un site internet sigle
                         page pour avoir une présence en ligne.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-3">
-                    <a class="text-decoration-none text-black" href=""><img src="./public/img/Logo-logo.png" alt="">Logo</a>
+            <div class="row py-4 m-0 option">
+                <div class="col-md-3">
+                    <div class="row justify-content-center"><img src="./public/img/Logo-logo.png" alt=""></div>
+                    <div class="row">
+                        <p class="text-center m-0 p-2">Logo</p>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <a class="text-decoration-none text-black" href=""><img src="./public/img/icon-charte-graphic.png" alt="">Charte graphique</a>
+                <div class="col-md-3">
+                    <div class="row justify-content-center"><img src="./public/img/icon-charte-graphic.png" alt="">
+                    </div>
+                    <div class="row justify-content-center">
+                        <p class="text-center m-0 p-2">Charte graphique</p>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <a class="text-decoration-none text-black" href=""><img src="./public/img/site-single-page.png" alt="">Site single page</a>
+                <div class="col-md-3">
+                    <div class="row justify-content-center"><img src="./public/img/site-single-page.png" alt=""></div>
+                    <div class="row justify-content-center">
+                        <p class="text-center m-0 p-2">Site single page</p>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <a class="text-decoration-none text-black" href=""><img src="./public/img/carte-visite.png" alt="">Carte de visite</a>
+                <div class="col-md-3">
+                    <div class="row justify-content-center"><img src="./public/img/carte-visite.png" alt=""></div>
+                    <div class="row justify-content-center">
+                        <p class="text-center m-0 p-2">Carte visite</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="container evolution">
-            <h2 class="text-uppercase">évolution</h2>
-            <div class="row">
-                <div class="col-4">
-                    <img src="./public/img/icon-evolution.png" alt="">
+        <div class="evolution d-flex row justify-content-center m-0">
+            <h2 class="text-uppercase text-center text-light py-2">évolution</h2>
+            <div class="row py-3 px-md-5 px-2 align-items-center">
+                <div class="col-md-4">
+                    <img class="w-100" src="./public/img/icon-evolution.png" alt="">
                 </div>
-                <div class="col-8">
+                <div class="col-md-8 pt-3 ps-md-5 pt-md-0">
                     <p>Le pack évolution vous propose une identité visuelle complète, comprenant la création de votre
                         logo, de la charte graphique et de vos cartes de visite.</p>
                     <p>Il intègre également le développement d'un site vitrine afin d'informer 24/7, d'être contacté,
                         d'analyser le flux de vos visites, ... et de faire un lien vers vos réseaux sociaux.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-3">
-                    <a href=""><img src="./public/img/Logo-logo.png" alt="">Logo</a>
+            <div class="row m-0 p-4 option">
+                <div class="col-md-3">
+                    <div class="row justify-content-center"><img src="./public/img/Logo-logo.png" alt=""></div>
+                    <div class="row">
+                        <p class="text-center m-0 p-2">Logo</p>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <a href=""><img src="./public/img/icon-charte-graphic.png" alt="">Charte graphique</a>
+                <div class="col-md-3">
+                    <div class="row justify-content-center"><img src="./public/img/icon-charte-graphic.png" alt="">
+                    </div>
+                    <div class="row justify-content-center">
+                        <p class="text-center m-0 p-2">Charte graphique</p>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <a href=""><img src="./public/img/site-vitrine.png" alt="">Site vitrine</a>
+                <div class="col-md-3">
+                    <div class="row justify-content-center"><img src="./public/img/site-vitrine.png" alt=""></div>
+                    <div class="row justify-content-center">
+                        <p class="text-center m-0 p-2">Site vitrine</p>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <a href=""><img src="./public/img/reseaux-sociaux.png" alt="">Réseaux sociaux</a>
+                <div class="col-md-3">
+                    <div class="row justify-content-center"><img src="./public/img/reseaux-sociaux.png" alt=""></div>
+                    <div class="row justify-content-center">
+                        <p class="text-center m-0 p-2">Réseaux sociaux</p>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <a href=""><img src="./public/img/carte-visite.png" alt="">Carte de visite</a>
+            <div class="row m-0 solo">
+                <div class="col visite pb-4 px-4">
+                    <div class="row justify-content-center"><img src="./public/img/carte-visite.png" alt=""></div>
+                    <div class="row justify-content-center">
+                        <p class="text-center m-0 p-2">Carte visite</p>
+                    </div>
                 </div>
             </div>
+        </div>
 
-            <div class="container envol">
-                <h2 class="text-uppercase">envol</h2>
-                <div class="row">
-                    <div class="col-4">
-                        <img src="./public/img/icon-envole.png" alt="">
+        <div class="envol d-flex row justify-content-center m-0 py-5">
+            <h2 class="text-uppercase text-center text-light py-2">envol</h2>
+            <div class="row py-3 px-md-5 px-2 align-items-center">
+                <div class="col-md-4">
+                    <img class="w-100" src="./public/img/icon-envole.png" alt="">
+                </div>
+                <div class="col-md-8 pt-3 ps-md-5 pt-md-0">
+                    <p>Le pack éclosion est destiné à acroître votre visibilité, clientèle et notoriété, tout en
+                        diminuant vos coût et en garantissant le meilleur retour sur investissement.</p>
+                    <p>Il comprend un service d'analyse de votre cible et des flux de votre trafic internet,
+                        afin
+                        d'utiliser les paramètre les plus adéquats pour la diffusion de vos campagne.</p>
+                </div>
+            </div>
+            <div class="row m-0 option p-4">
+                <div class="col-md-3">
+                    <div class="row justify-content-center"><img src="./public/img/icon-analyse-flux-web.png" alt="">
                     </div>
-                    <div class="col-8">
-                        <p>Le pack éclosion est destiné à acroître votre visibilité, clientèle et notoriété, tout en
-                            diminuant vos coût et en garantissant le meilleur retour sur investissement.</p>
-                        <p>Il comprend un service d'analyse de votre cible et des flux de votre trafic internet, afin
-                            d'utiliser les paramètre les plus adéquats pour la diffusion de vos campagne.</p>
+                    <div class="row">
+                        <p class="text-center m-0 p-2">Analyse du flux web</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-3">
-                        <a href=""><img src="./public/img/icon-analyse-flux-web.png" alt="">Analyse du flux web</a>
+                <div class="col-md-3">
+                    <div class="row justify-content-center"><img src="./public/img/icon-campagne-facebook.png" alt="">
                     </div>
-                    <div class="col-3">
-                        <a href=""><img src="./public/img/icon-campagne-facebook.png" alt="">Campagne Facebook</a>
+                    <div class="row">
+                        <p class="text-center m-0 p-2">Campagne Facebook</p>
                     </div>
-                    <div class="col-3">
-                        <a href=""><img src="./public/img/icon-campagne-facebook.png" alt="">Campagne Adwords</a>
+                </div>
+                <div class="col-md-3">
+                    <div class="row justify-content-center"><img src="./public/img/icon-campagne-facebook.png" alt="">
                     </div>
-                    <div class="col-3">
-                        <a href=""><img src="./public/img/icon-campagne-e-mailing.png" alt="">Campagne e-mailing</a>
+                    <div class="row">
+                        <p class="text-center m-0 p-2">Campagne adwords</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row justify-content-center"><img src="./public/img/icon-campagne-e-mailing.png" alt="">
+                    </div>
+                    <div class="row">
+                        <p class="text-center m-0 p-2">Campagne e-mailing</p>
                     </div>
                 </div>
             </div>
+        </div>
 
     </main>
 
-    <footer>
-        <div class="row">
-            <div class="col-4">
+    <footer class="text-light text-center text-md-start">
+        <div class="row col reseau">
+            <div class="col-md-4 p-md-4 p-3">
                 <h5>Packs</h5>
-                <div class="row">
+                <div class="row justify-content-center justify-content-md-start py-3">
                     <img src="./public/img/icon-eclosion.png" alt="" class="col-4">
                     <img src="./public/img/icon-evolution.png" alt="" class="col-4">
                     <img src="./public/img/icon-envole.png" alt="" class="col-4">
                 </div>
             </div>
 
-
-            <div class="col-4">
+            <div class="col-md-4 p-md-4 p-3">
                 <h5>Outils</h5>
-                <div class="row">
+                <div class="row justify-content-center justify-content-md-start py-3">
                     <img src="./public/img/identite-graphique.png" alt="" class="col-4">
                     <img src="./public/img/reseaux-sociaux.png" alt="" class="col-4">
                     <img src="./public/img/print.png" alt="" class="col-4">
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4 p-md-4 p-3">
                 <h5>Social media</h5>
-                <div class="row">
+                <div class="row justify-content-center justify-content-md-start py-3">
                     <img src="./public/img/social-f.png" alt="" class="col-4">
                     <img src="./public/img/google-plus.png" alt="" class="col-4">
                 </div>
             </div>
         </div>
-        <div class="cgv">
-            <p>C.G.V</p>
+        <div class="cgv text-end">
+            <p class="m-0">C.G.V</p>
         </div>
     </footer>
 

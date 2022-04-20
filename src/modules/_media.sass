@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px)
+    body
+        margin: 0 10%
+        header
+        nav
+            #menu-nav
+                ul li
+                    img
+                        height: 40px
+                    a
+                        font-size: 9px
+
+@media screen and (max-width: 700px)
+    body
+        margin: 0
+        header
+            nav
+                grid-template-columns: 1fr
+                justify-items: center
+                #menu-nav
+                    padding-top: 20px
+                    ul li
+                        img
+                            height: 40px
+                        a
+                            font-size: 9px
+        main
+            .banner
+                background-color: $fond-blue
+            .eclosion, .evolution , .envol
+                h2
+                    background-color: $fond-blue
+                p
+                    text-align: justify
+                .option
+                    background-color: $fond-beige
+                    .col-md-3
+                        .row
+                            img
+                                width: 75%
+                                height: auto
+                .solo
+                    background-color: $fond-beige
+                    .visite
+                        .row
+                            img
+                                width: 75%
+                                height: auto
